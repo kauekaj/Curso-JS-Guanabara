@@ -17,9 +17,21 @@ section {
     box-shadow: 3px 3px 80px rgba(0, 0, 0, 0.342);
 }
 
+div {
+    text-align: center;
+    padding: 10px;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
 
 }
+
+#image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
