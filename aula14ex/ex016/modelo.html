@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Contador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,15 +13,18 @@
     </header>
 
     <section>
-        <div>
-           Início: <input type="number" name="inicio" id="inicio"> 
+        <div id="dados">
+           <p>Início: <input type="number" name="inicio" id="txti"> </p>
+        
+           <p>Fim: <input type="number" name="fim" id="txtf"> </p>
+               
+           <p>Passo: <input type="number" name="passo" id="txtp"> </p>
+        
+           <p><input type="button" value="Contar" onclick="contar()"></p>
         </div>
-        <div>
-           Fim: <input type="number" name="fim" id="fim"> 
+        <div id="res">
+            <p>Preparando a contagem...</p>
         </div>
-        <div>
-            Passo: <input type="number" name="passo" id="passo"> 
-         </div>
     </section>
     <footer>
         <p>&copy; kauekaj</p>
