@@ -8,7 +8,9 @@ console.log(num)
 console.log(`O vetor tem ${num.length} posições`)
 console.log(`A última posição d vetor é ${num[num.length - 1]}`)
 
-
-for(let pos=0; pos<num.length; pos++) {
-    console.log(num[pos])
+let pos = num.indexOf(8)
+if (pos == -1) {
+    console.log('O valor não foi encontrado')
+} else {
+console.log(`O valor está na posição ${pos}`)
 }
