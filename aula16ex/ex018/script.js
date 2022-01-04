@@ -35,7 +35,7 @@ function finalizar() {
 
     for (let pos in valores) {
         soma += valores[pos]
-        
+
         if (valores[pos] > maior)
             maior = valores[pos]
         if (valores[pos] < menor)
@@ -51,4 +51,10 @@ function finalizar() {
     res.innerHTML += `<p>A soma dos números é ${soma}.</p>`
     res.innerHTML += `<p>A média dos números é ${media}.</p>`
     }
+}
+
+function limparDados () {
+    res.innerHTML = ''
+    lista.length =''
+    valores = []
 }
