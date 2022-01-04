@@ -3,7 +3,7 @@ let lista = document.getElementById('flista')
 let res = document.querySelector('div#res')
 let valores = []
 
-
+//Função para adicionar o número na lista
 function adicionar() {
     let n = Number(num.value)
     if (num.value.length == 0) {
@@ -23,6 +23,7 @@ function adicionar() {
     num.focus()
 }
 
+// Função para calcular e mostar os dados com base nos números da lista
 function finalizar() {
     if (lista.length == 0) {
         alert('A lista está vazia')
@@ -53,6 +54,7 @@ function finalizar() {
     }
 }
 
+// Função para limpar os dados da lista
 function limparDados () {
     res.innerHTML = ''
     lista.length =''
